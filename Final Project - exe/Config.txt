@@ -50,6 +50,30 @@
       "port": 5053,
       "request": "send chem-director-office-01",
       "request_interval": 3
+    },
+    "bio-main-gate-02": {
+      "type": "bio",
+      "location": "main-gate",
+      "ip": "127.0.0.1",
+      "port": 5050,
+      "request": "send bio-main-gate-02",
+      "request_interval": 3.0
+    },
+    "fcad-main-gate-01": {
+      "type": "fcad",
+      "location": "main-gate",
+      "ip": "169.254.1.1",
+      "port": 30303,
+      "request": "Discovery",
+      "request_interval": 3.0
+    },
+    "fcad-director-office-01": {
+      "type": "fcad",
+      "location": "director-office",
+      "ip": "169.254.1.1",
+      "port": 30303,
+      "request": "Discovery",
+      "request_interval": 3.0
     }
   }
 }
