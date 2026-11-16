@@ -54,9 +54,9 @@
     "fcad-main-gate-01": {
       "type": "fcad",
       "location": "main-gate",
-      "ip": "169.254.1.1",
-      "port": 30303,
-      "request": "Discovery",
+      "ip": "CONFIDENTIAL",
+      "port": CONFIDENTIAL,
+      "request": "CONFIDENTIAL",
       "request_interval": 3.0
     }
   }
